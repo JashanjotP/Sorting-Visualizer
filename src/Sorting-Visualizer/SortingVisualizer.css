@@ -1,0 +1,135 @@
+
+.container{
+   display: flex;
+   flex-direction: column;
+}
+
+.array-bar{
+    width: 10px;
+    background-color: #A76F6F;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.button-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.btn{
+    border: 2px solid #000000;
+    background-color: #E0DDDD;
+    font-family: 'Inter', sans-serif;
+    border-radius: 100px;
+    width: 180px;
+    height: 50px;
+}
+
+.btn:hover {
+    transition: 300ms ease-in-out; 
+    cursor: pointer;
+    background-color: #EAB2A0;
+ }
+
+ .btn:active{
+    background-color: #A76F6F;
+ }
+
+
+.text{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.bars{
+    border: 3px solid #F5F5F5;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    align-items:flex-end;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.sorts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+    grid-template-rows: repeat(3, 1fr);    /* Two rows with equal height */
+    gap: 40px;
+    padding-bottom: 10px;
+}
+
+.line{
+    width: 71px;
+    height: 3px;
+    background: #E0DDDD;
+}
+
+.line-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title{
+    color: #F5F5F5;
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.slider{
+    -webkit-appearance: none;
+    appearance: none;
+    background: #E8E8E8;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 15rem;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 20px;
+    border-radius: 100px;
+background: #EAB2A0;
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 20px;
+    border-radius: 100px;
+    background: #EAB2A0; 
+    cursor: pointer; /* Cursor on hover */
+  }
